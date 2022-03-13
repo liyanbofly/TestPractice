@@ -8,11 +8,12 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 /**
- * 定时任务
+ * 定时任务@Scheduled
  */
 @Component
 @EnableScheduling
 public class ScheduleTest {
+
 
     /**
      * 1分钟执行一次 fixedRate:每隔几分钟执行一次--1分钟;initialDelay：第一次执行延时 10秒
